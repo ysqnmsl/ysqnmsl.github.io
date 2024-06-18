@@ -13,8 +13,7 @@
             reverse_picture_color = true; /* (布尔值)是否将图片反色 */
 
             /* (字符串)在这里写一些介绍和生前逸事 */
-            introduction = "你说得对，但是马嘉祺，2002年12月12日出生于河南省郑州市 [111]，中国内地流行乐男歌手、演员。男子演唱组合时代少年团队长 [2]，就读于中央戏剧学院2022级话剧影视表演本科班 [81]。"; 
-
+            introduction = "你说的对，但是马嘉祺，2002年12月12日出生于河南省郑州市 [111]，中国内地流行乐男歌手、演员。男子演唱组合时代少年团队长 [2]，就读于中央戏剧学院2022级话剧影视表演本科班 [81]。"
             
         </script>
 
@@ -277,16 +276,16 @@
             document.getElementById("loading_tips").innerHTML = "马上就好";
 
             /* Gitalk 评论区配置 */
-            var gitalk = new Gitalk({
-                clientID: 'be96a41462c84525e077',
-                clientSecret: '5be136bc48441c539d9203aa5c61dbadb42d3309',
-                repo: 'Lingtang_OnInternet',
-                owner: 'ASOULFucker',
-                admin: ['ASOULFucker'],
-                id: location.pathname,      // Ensure uniqueness and length less than 50
-                distractionFreeMode: false  // Facebook-like distraction free mode
-            });
-            gitalk.render('gitalk-container');
+            //var gitalk = new Gitalk({
+            //    clientID: 'be96a41462c84525e077',
+            //    clientSecret: '5be136bc48441c539d9203aa5c61dbadb42d3309',
+            //    repo: 'Lingtang_OnInternet',
+            //    owner: 'ASOULFucker',
+            //    admin: ['ASOULFucker'],
+            //    id: location.pathname,      // Ensure uniqueness and length less than 50
+            //    distractionFreeMode: false  // Facebook-like distraction free mode
+            //});
+            //gitalk.render('gitalk-container');
 
             document.getElementById("UpStream").onclick = function(){
                 $('#Dead_Picture').addClass("UpStream_animation");
